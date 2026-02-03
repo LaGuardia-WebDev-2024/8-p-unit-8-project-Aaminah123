@@ -21,7 +21,8 @@ mouseClicked = function(){
 var drawFish = function(fishX, fishY, fishColor){
   textSize(80);
   fill(fishColor);
-  text("𓆝", fishX, fishY);
+  text("🐟", fishX, fishY);
+  text("🐙", fishX, fishY);
 };
 
 
