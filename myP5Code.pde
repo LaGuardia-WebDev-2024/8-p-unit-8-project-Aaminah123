@@ -1,16 +1,20 @@
+var dimitri = loadImage("https://art.pixilart.com/thumb/828e3105ed8e.png");
+
 
 //🟢setup Function - will run once
 setup = function() {
     size(600, 400);
     background(255,255,255,0);
+    imageMode(CENTER)
     
-    drawFish(200, 200, color(200,0,200)); 
-    drawFish(300, 200, color(0,200,200));
+    drawFish(200, 100, color(200,0,200)); 
+    drawFish(300, 100, color(0,200,200));
 };
 
 //🟢draw Function - will run on repeat
 draw = function(){
-
+  image(dimitri,100,-100)
+  
 };
 
 //🟢mouseClicked Function - will run when mouse is clicked
@@ -22,8 +26,6 @@ mouseClicked = function(){
 var drawFish = function(fishX, fishY, fishColor){
   textSize(80);
   fill(fishColor);
-  text("fish", fishX, fishY);
-  text("🐙", fishX, fishY);
 };
 
 
