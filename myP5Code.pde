@@ -11,19 +11,35 @@ setup = function() {
 
 //🟢draw Function - will run on repeat
 draw = function(){
-  image(dimitri,200,-100)
-  image(edelgard,225,205)
-  image(claude,30,210)
+  //dimitri
+  fill(19, 56, 157)
+  stroke(19, 57, 157)
+  rect(390,-1,210,405);
+  image(dimitri,200,-100);
+  
+  
+  //edelgard
+  fill(230, 23, 47);
+  stroke(230, 23, 47);
+  rect(190,-1,200,405);
+  image(edelgard,225,205);
+
+  //claude
+  fill(222, 201, 46);
+  stroke(222,201,46);
+  rect(0,-1,190,405);
+  image(claude,40,210);
+
+  
 };
 
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
 }
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
-  fill(fishColor);
+//🟡drawdimitri Function - will run when called
+var drawdimitri = function(){
+  
 };
 
 
