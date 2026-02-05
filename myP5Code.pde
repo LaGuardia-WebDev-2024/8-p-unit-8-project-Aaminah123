@@ -1,5 +1,5 @@
 var dimitri = loadImage("https://art.pixilart.com/thumb/828e3105ed8e.png");
-
+var edelgard = loadImage("edellgardd.png");
 
 //🟢setup Function - will run once
 setup = function() {
@@ -14,6 +14,7 @@ setup = function() {
 //🟢draw Function - will run on repeat
 draw = function(){
   image(dimitri,100,-100)
+  image(edelgard,100,160)
   
 };
 
