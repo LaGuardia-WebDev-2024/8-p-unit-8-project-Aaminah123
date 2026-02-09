@@ -20,6 +20,12 @@ body {
 h1{
   font-size: 40px;
 }
+h1 span {
+  background-color: black;
+  border-style:double;
+  border-radius: 30px;
+  border-width: 8px;
+}
 
 #myCanvas {
   background-image: url("https://cdn11.bigcommerce.com/s-3uewkq06zr/images/stencil/1280x1280/products/230/406/blue_b__05623.1492487362.png?c=2");
